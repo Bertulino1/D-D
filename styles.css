@@ -1,0 +1,82 @@
+/*import font*/
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+body {
+    font-family:'Sevillana' ;
+    background-color: rgba(237, 204, 114, 0.573);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.4rem;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    
+}
+.dungeon {
+     display: flex;
+     margin-right: 1.25rem;
+     color: brown;
+}
+.barraPesquisa{
+    width: 20rem; /* Largura dos inputs */
+    border: 2px; /* Remove a borda padrão */
+    padding: 1rem; /* Espaçamento interno */
+    border-radius: 1.5rem; /* Borda arredondada */
+    margin-bottom: 1rem; /* Espaçamento abaixo dos inputs */
+    color: #45474B; /* Cor do texto */
+    font-size: 1rem; /* Tamanho da fonte */
+    box-sizing: border-box; /* Inclui padding e border na largura total */
+}
+footer {
+background-color: #45474B;
+width: 100%;
+text-align: center;
+font-family: 'Franklin Gothic Medium';
+letter-spacing: normal;
+}
+button{
+    margin-left: 10px;
+    width: 7rem; /* Largura dos inputs */
+    border: 2px; /* Remove a borda padrão */
+    padding: 1rem; /* Espaçamento interno */
+    border-radius: 1.5rem; /* Borda arredondada */
+    margin-bottom: 1rem; /* Espaçamento abaixo dos inputs */
+    color: #3f5685; /* Cor do texto */
+    font-size: 1rem; /* Tamanho da fonte */
+    box-sizing: border-box; /* Inclui padding e border na largura total */
+    background-color: black;
+}
+section {
+    margin-top: 10px;
+}
+.ficha div {
+    background-color: #6381bd;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    text-align: center;
+    justify-content: center;
+    box-sizing: border-box;
+    overflow-y: auto;
+    box-shadow: 1px 0px 2px black;
+}
+.ficha div h2 {
+  margin-right: 10px;
+}
+a h2 {
+    color: rgb(234, 37, 37);
+    text-decoration: none;
+
+} 
+a {
+    text-decoration: none;
+}
